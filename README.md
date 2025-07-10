@@ -18,7 +18,7 @@ Welcome! This repository showcases my consistent commitment to sharpening my pro
 - Code files include well-documented comments, problem links, and clean, maintainable code
 
 ---
-[![Open Dashboard](https://img.shields.io/badge/🚪-Open%20Dashboard-brightgreen?style=for-the-badge&logo=github&logoColor=white)](index.html)
+[![Open Dashboard](https://img.shields.io/badge/🚪-Open%20Dashboard-brightgreen?style=for-the-badge&logo=github&logoColor=white)](https://miron-silviu.github.io/hackerrank-solutions/)
 
 ## 📅 Problem Solving Log — July 2025 (Summary)
 
