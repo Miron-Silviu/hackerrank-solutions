@@ -6,7 +6,7 @@ Welcome! This repository showcases my consistent commitment to sharpening my pro
 
 ## 🔗 HackerRank Profile
 
-[![HackerRank](https://img.shields.io/badge/HackerRank-Profile-green?style=flat&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/silviuumiron)
+[![HackerRank](https://github.com/Miron-Silviu/Guess-my-Number/blob/main/images/Frame%201.png)](https://www.hackerrank.com/profile/silviuumiron)
 
 ---
 
@@ -19,21 +19,22 @@ Welcome! This repository showcases my consistent commitment to sharpening my pro
 
 ---
 
+[![Open Dashboard](https://github.com/Miron-Silviu/Guess-my-Number/blob/main/images/Frame%201.png)](index.html)
+
 ## 📅 Problem Solving Log — July 2025 (Summary)
 
-| Date       | Category | Language   | Problem Name         | Solution Link                            |
-| ---------- | -------- | ---------- | -------------------- | ---------------------------------------- |
-| 2025-07-10 | 10 days  | JavaScript | Day 0: Hello, World! | [Code](./July_2025/07-10_hello_world.js) |
-| 2025-07-10 | 10 days  | JavaScript | Day 0: Hello, World! | [Code](./July_2025/07-10_hello_world.js) |
+| Date       | Category | Language   | Problem Name         | Solution Link                                                                            |
+| ---------- | -------- | ---------- | -------------------- | ---------------------------------------------------------------------------------------- |
+| 2025-07-10 | 10 days  | JavaScript | Day 0: Hello, World! | [Code](https://www.hackerrank.com/challenges/js10-hello-world/problem?isFullScreen=true) |
 
 <details>
   <summary>View full detailed table for July 2025 solutions</summary>
 
-| Date       | Category        | Language   | Problem Name         | HackerRank Link                                                                | Solution Link                                   |
-| ---------- | --------------- | ---------- | -------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------- |
-| 2025-07-10 | 10 days         | JavaScript | Day 0: Hello, World! | [Problem](https://www.hackerrank.com/challenges/10-days-of-javascript/problem) | [Code](./July_2025/07-10_hello_world.js)        |
-| 2025-07-08 | Databases (SQL) | SQL        | Select All           | [Problem](https://www.hackerrank.com/challenges/select-all/problem)            | [Code](./July_2025/07-08_select_all.sql)        |
-| 2025-07-07 | Data Structures | JavaScript | Array Manipulation   | [Problem](https://www.hackerrank.com/challenges/array-manipulation/problem)    | [Code](./July_2025/07-07_array_manipulation.js) |
+| Date       | Category        | Language   | Problem Name         | HackerRank Link                                                             | Solution Link                                   |
+| ---------- | --------------- | ---------- | -------------------- | --------------------------------------------------------------------------- | ----------------------------------------------- |
+| 2025-07-10 | 10 days         | JavaScript | Day 0: Hello, World! | [code](https://www.hackerrank.com/challenges/10-days-of-javascript/problem) | [Code](./July_2025/07-10_hello_world.js)        |
+| 2025-07-08 | Databases (SQL) | SQL        | Select All           | [Problem](https://www.hackerrank.com/challenges/select-all/problem)         | [Code](./July_2025/07-08_select_all.sql)        |
+| 2025-07-07 | Data Structures | JavaScript | Array Manipulation   | [Problem](https://www.hackerrank.com/challenges/array-manipulation/problem) | [Code](./July_2025/07-07_array_manipulation.js) |
 
 <!-- Add more rows here as you solve more problems -->
 
