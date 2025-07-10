@@ -14,20 +14,30 @@ Welcome! This repository showcases my consistent commitment to sharpening my pro
 
 - Organized by **Year / Month** to track progress over time
 - Each solution is clearly named with the date and problem title (`MM-DD_problem-name.extension`)
-- Each monthly folder contains a detailed README listing all problems solved with links to code
+- Each monthly folder contains a detailed README listing all problems solved with links to code and HackerRank problems
 - Code files include well-documented comments, problem links, and clean, maintainable code
 
 ---
 
-## 📅 Problem Solving Log — July 2025
+## 📅 Problem Solving Log — July 2025 (Summary)
 
-| Date       | Category        | Language   | Problem Name   | Solution Link                                     |
-| ---------- | --------------- | ---------- | -------------- | ------------------------------------------------- |
-| 2025-07-08 | Algorithms      | Python     | Solve Me First | [View Code](2025/07_July/07-08_solve_me_first.py) |
-| 2025-07-08 | Databases (SQL) | SQL        | Select All     | [View Code](2025/07_July/07-08_select_all.sql)    |
-| 2025-07-07 | Data Structures | JavaScript | Arrays DS      | [View Code](2025/07_July/07-07_arrays_ds.js)      |
+| Date       | Category | Language   | Problem Name         | Solution Link                            |
+| ---------- | -------- | ---------- | -------------------- | ---------------------------------------- |
+| 2025-07-10 | 10 days  | JavaScript | Day 0: Hello, World! | [Code](./July_2025/07-10_hello_world.js) |
+| 2025-07-10 | 10 days  | JavaScript | Day 0: Hello, World! | [Code](./July_2025/07-10_hello_world.js) |
 
-_More solutions added regularly..._
+<details>
+  <summary>View full detailed table for July 2025 solutions</summary>
+
+| Date       | Category        | Language   | Problem Name         | HackerRank Link                                                                | Solution Link                                   |
+| ---------- | --------------- | ---------- | -------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------- |
+| 2025-07-10 | 10 days         | JavaScript | Day 0: Hello, World! | [Problem](https://www.hackerrank.com/challenges/10-days-of-javascript/problem) | [Code](./July_2025/07-10_hello_world.js)        |
+| 2025-07-08 | Databases (SQL) | SQL        | Select All           | [Problem](https://www.hackerrank.com/challenges/select-all/problem)            | [Code](./July_2025/07-08_select_all.sql)        |
+| 2025-07-07 | Data Structures | JavaScript | Array Manipulation   | [Problem](https://www.hackerrank.com/challenges/array-manipulation/problem)    | [Code](./July_2025/07-07_array_manipulation.js) |
+
+<!-- Add more rows here as you solve more problems -->
+
+</details>
 
 ---
 
@@ -41,4 +51,8 @@ _More solutions added regularly..._
 
 ---
 
-## 📂 Repository Structure
+## 📁 Browse by Month
+
+- [📂 2025 / July](./July_2025/)
+- [📂 2025 / August](./2025/08_August/)
+- [📂 2025 / September](./2025/09_September/)
