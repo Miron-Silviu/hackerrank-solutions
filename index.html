@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HackerRank Solutions</title>
+    <style>
+      :root {
+        --primary: #1ba94c;
+        --bg: #f4f4f4;
+        --card: #ffffff;
+        --text: #333;
+        --link: #1ba94c;
+        --shadow: rgba(0, 0, 0, 0.1);
+      }
+
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background-color: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      header {
+        background-color: var(--primary);
+        color: white;
+        padding: 2rem 1rem;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2rem;
+      }
+
+      header p {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+      }
+
+      .container {
+        max-width: 960px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+
+      .card {
+        background-color: var(--card);
+        border-radius: 10px;
+        padding: 1.5rem;
+        box-shadow: 0 4px 8px var(--shadow);
+        margin-bottom: 1.5rem;
+      }
+
+      .card h2 {
+        margin-top: 0;
+        color: var(--primary);
+      }
+
+      a {
+        color: var(--link);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .folder-links {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      }
+
+      .folder {
+        background-color: #e7f7eb;
+        border-left: 5px solid var(--primary);
+        padding: 1rem;
+        border-radius: 6px;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 0.9rem;
+        color: #777;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>📘 HackerRank Solutions</h1>
+      <p>Daily coding practice organized by year and month</p>
+    </header>
+
+    <main class="container">
+      <div class="card">
+        <h2>🔗 My Profiles</h2>
+        <p>
+          <a href="https://www.hackerrank.com/your_username" target="_blank"
+            >HackerRank</a
+          >
+          |
+          <a href="https://leetcode.com/your_username" target="_blank"
+            >LeetCode</a
+          >
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>📁 Organized Folders</h2>
+        <div class="folder-links">
+          <div class="folder"><a href="./July_2025/">📂 2025 / July</a></div>
+          <div class="folder">
+            <a href="2025/08_August/">📂 2025 / August</a>
+          </div>
+          <!-- Add more folders here -->
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>📌 How I Work</h2>
+        <ul>
+          <li>Solve problems on HackerRank</li>
+          <li>Copy solution into my local repo (VS Code)</li>
+          <li>Organize files: <code>MM-DD_problem-name.extension</code></li>
+          <li>Push daily to GitHub</li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>&copy; 2025 My Coding Journal — Last updated: July 2025</footer>
+  </body>
+</html>
