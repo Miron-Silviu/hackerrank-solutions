@@ -63,3 +63,18 @@ performOperation(12, 13.0, 'Is the best!');
 //  📌 Note:
 //   The values returned by these functions are printed to stdout
 //   by locked stub code in the HackerRank editor.
+
+function getArea(length, width) {
+  let area = length * width;
+
+  return area;
+}
+
+console.log(getArea(3, 1));
+
+function getPerimeter(length, widht) {
+  let perimeter = 2 * (length + widht);
+  return perimeter;
+}
+
+console.log(getPerimeter(2, 3));
