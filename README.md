@@ -23,9 +23,11 @@ Welcome! This repository showcases my consistent commitment to sharpening my pro
 
 ## 📅 Problem Solving Log — July 2025 (Summary)
 
-| Date       | Category | Language   | Problem Name         | Solution Link                                                                            |
-| ---------- | -------- | ---------- | -------------------- | ---------------------------------------------------------------------------------------- |
-| 2025-07-10 | 10 days  | JavaScript | Day 0: Hello, World! | [Code](https://www.hackerrank.com/challenges/js10-hello-world/problem?isFullScreen=true) |
+| Date       | Category | Language   | Problem Name                | Solution Link                                                                            |
+| ---------- | -------- | ---------- | --------------------------- | ---------------------------------------------------------------------------------------- |
+| 2025-07-15 | 10 days  | JavaScript | Day 0: Hello, World!        | [Code](https://www.hackerrank.com/challenges/js10-hello-world/problem?isFullScreen=true) |
+| 2025-07-15 | 10 days  | JavaScript | Day 0: Data Types           | [Code](https://www.hackerrank.com/challenges/js10-data-types/problem?isFullScreen=true)  |
+| 2025-07-15 | 10 days  | JavaScript | Day 1: Arithmetic Operators | [Code](https://www.hackerrank.com/challenges/js10-data-types/problem?isFullScreen=true)  |
 
 <details>
   <summary>View full detailed table for July 2025 solutions</summary>
