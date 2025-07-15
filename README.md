@@ -23,20 +23,20 @@ Welcome! This repository showcases my consistent commitment to sharpening my pro
 
 ## 📅 Problem Solving Log — July 2025 (Summary)
 
+| Date       | Language   | Topics               | Skills            | Difficulty | Subdomains           | Problem Name         | HackerRank Link                                                             |
+| ---------- | ---------- | -------------------- | ----------------- | ---------- | -------------------- | -------------------- | --------------------------------------------------------------------------- |
+| 2025-07-10 | JavaScript | Introduction         | Input/Output      | Easy       | JavaScript, Basics   | Day 0: Hello, World! | [code](https://www.hackerrank.com/challenges/10-days-of-javascript/problem) |
+| 2025-07-08 | SQL        | Basic SELECT queries | Querying Tables   | Easy       | SQL, Select          | Select All           | [Problem](https://www.hackerrank.com/challenges/select-all/problem)         |
+| 2025-07-07 | JavaScript | Arrays               | Data Manipulation | Hard       | Arrays, Optimization | Array Manipulation   | [Problem](https://www.hackerrank.com/challenges/array-manipulation/problem) |
+
+<details>
+  <summary>View full detailed table for July 2025 solutions</summary>
+
 | Date       | Category | Language   | Problem Name                | Solution Link                                                                                     |
 | ---------- | -------- | ---------- | --------------------------- | ------------------------------------------------------------------------------------------------- |
 | 2025-07-15 | 10 days  | JavaScript | Day 0: Hello, World!        | [Code](https://www.hackerrank.com/challenges/js10-hello-world/problem?isFullScreen=true)          |
 | 2025-07-15 | 10 days  | JavaScript | Day 0: Data Types           | [Code](https://www.hackerrank.com/challenges/js10-data-types/problem?isFullScreen=true)           |
 | 2025-07-15 | 10 days  | JavaScript | Day 1: Arithmetic Operators | [Code](https://www.hackerrank.com/challenges/js10-arithmetic-operators/problem?isFullScreen=true) |
-
-<details>
-  <summary>View full detailed table for July 2025 solutions</summary>
-
-| Date       | Category        | Language   | Problem Name         | HackerRank Link                                                             | Solution Link                                   |
-| ---------- | --------------- | ---------- | -------------------- | --------------------------------------------------------------------------- | ----------------------------------------------- |
-| 2025-07-10 | 10 days         | JavaScript | Day 0: Hello, World! | [code](https://www.hackerrank.com/challenges/10-days-of-javascript/problem) | [Code](./July_2025/07-10_hello_world.js)        |
-| 2025-07-08 | Databases (SQL) | SQL        | Select All           | [Problem](https://www.hackerrank.com/challenges/select-all/problem)         | [Code](./July_2025/07-08_select_all.sql)        |
-| 2025-07-07 | Data Structures | JavaScript | Array Manipulation   | [Problem](https://www.hackerrank.com/challenges/array-manipulation/problem) | [Code](./July_2025/07-07_array_manipulation.js) |
 
 <!-- Add more rows here as you solve more problems -->
 
