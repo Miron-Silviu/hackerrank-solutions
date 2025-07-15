@@ -6,7 +6,7 @@ Welcome! This repository showcases my consistent commitment to sharpening my pro
 
 ## 🔗 HackerRank Profile
 
-[![HackerRank](https://github.com/Miron-Silviu/Guess-my-Number/blob/main/images/Frame%201.png)](https://www.hackerrank.com/profile/silviuumiron)
+[![HackerRank Profile](https://img.shields.io/badge/🏆-HackerRank%20Profile-2bbc8a?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/silviuumiron)
 
 ---
 
@@ -18,8 +18,7 @@ Welcome! This repository showcases my consistent commitment to sharpening my pro
 - Code files include well-documented comments, problem links, and clean, maintainable code
 
 ---
-
-[![Open Dashboard](https://github.com/Miron-Silviu/Guess-my-Number/blob/main/images/Frame%201.png)](index.html)
+[![Open Dashboard](https://img.shields.io/badge/🚪-Open%20Dashboard-brightgreen?style=for-the-badge&logo=github&logoColor=white)](https://miron-silviu.github.io/hackerrank-solutions/)
 
 ## 📅 Problem Solving Log — July 2025 (Summary)
 
