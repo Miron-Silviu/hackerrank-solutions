@@ -19,7 +19,7 @@ Welcome! This repository showcases my consistent commitment to sharpening my pro
 
 ---
 
-[![Open Dashboard](https://img.shields.io/badge/🚪-Open%20Dashboard-brightgreen?style=for-the-badge&logo=github&logoColor=white)](./dashboard.html)
+[![Open Dashboard](https://img.shields.io/badge/🚪-Open%20Dashboard-brightgreen?style=for-the-badge&logo=github&logoColor=white)](http://127.0.0.1:5500/dashboard.html)
 
 ## 📅 Problem Solving Log — July 2025 (Summary)
 
