@@ -23,11 +23,10 @@ Welcome! This repository showcases my consistent commitment to sharpening my pro
 
 ## 📅 Problem Solving Log — July 2025 (Summary)
 
-| Date       | Language   | Topics               | Skills            | Difficulty | Subdomains           | Problem Name         | HackerRank Link                                                             |
-| ---------- | ---------- | -------------------- | ----------------- | ---------- | -------------------- | -------------------- | --------------------------------------------------------------------------- |
-| 2025-07-10 | JavaScript | Introduction         | Input/Output      | Easy       | JavaScript, Basics   | Day 0: Hello, World! | [code](https://www.hackerrank.com/challenges/10-days-of-javascript/problem) |
-| 2025-07-08 | SQL        | Basic SELECT queries | Querying Tables   | Easy       | SQL, Select          | Select All           | [Problem](https://www.hackerrank.com/challenges/select-all/problem)         |
-| 2025-07-07 | JavaScript | Arrays               | Data Manipulation | Hard       | Arrays, Optimization | Array Manipulation   | [Problem](https://www.hackerrank.com/challenges/array-manipulation/problem) |
+| Date       | Language   | Topics         | Skills                  | Difficulty | Subdomains | Problem Name       | HackerRank Link                                                             |
+| ---------- | ---------- | -------------- | ----------------------- | ---------- | ---------- | ------------------ | --------------------------------------------------------------------------- |
+| 2025-07-10 | JavaScript | Data Structure | Problem Solving (Basic) | Easy       | Arrays     | Select All         | [Problem](https://www.hackerrank.com/challenges/select-all/problem)         |
+| 2025-07-07 | JavaScript | Data Structure | Problem Solving (Basic) | Easy       | Arrays     | Array Manipulation | [Problem](https://www.hackerrank.com/challenges/array-manipulation/problem) |
 
 <details>
   <summary>View full detailed table for July 2025 solutions</summary>
