@@ -17,6 +17,14 @@ function padRow(rowNumber, rowCount) {
   rows.push(padRow(i, count));
 }*/
 
+let continueLoop = false;
+let done = 0;
+
+while (continueLoop) {}
+
+if (done === count) {
+  continueLoop = false;
+}
 let result = '';
 
 for (const row of rows) {
