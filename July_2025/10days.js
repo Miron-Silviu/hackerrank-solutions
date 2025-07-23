@@ -5,6 +5,7 @@
 //  Link: https://www.hackerrank.com/challenges/js10-hello-world/problem?isFullScreen=true
 //  Date: 2025-07-15
 //  Language: JavaScript
+//  Difficulty: Easy
 // ============================================
 //
 //  🔹 Task:
@@ -23,6 +24,7 @@ getting('Welcome to 10 Days of JavaScript!');
 //  Link: https://www.hackerrank.com/challenges/js10-data-types/problem?isFullScreen=true
 //  Date: 2025-07-15
 //  Language: JavaScript
+//  Difficulty: Easy
 // ============================================
 //
 //  🔹 Task:
@@ -51,6 +53,7 @@ performOperation(12, 13.0, 'Is the best!');
 //  Link: https://www.hackerrank.com/challenges/js10-data-types/problem?isFullScreen=true
 //  Date: 2025-07-15
 //  Language: JavaScript
+//  Difficulty: Easy
 // ============================================
 //
 //  🔹 Task:
