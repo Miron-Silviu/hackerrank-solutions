@@ -28,6 +28,7 @@
 // m tall.
 // GOOD LUCK 😀
 
+console.log(`********************Challenge 1************************`);
 const markMass = 68;
 const markHeight = 1.69;
 const johnMass = 92;
@@ -39,6 +40,7 @@ const johnBmi = johnMass / johnHeight ** 2;
 const markHigherBMI = markBmi > johnBmi;
 console.log(markBmi, johnBmi, markHigherBMI);
 
+console.log(`\n`);
 // ============================================
 //  Problem: Coding Challenge #2
 //  Date: 2025-07-15
@@ -58,12 +60,14 @@ console.log(markBmi, johnBmi, markHigherBMI);
 // Hint: Use an if/else statement 😉
 // GOOD LUCK 😀
 
+console.log(`*************************Challenge 2************************`);
 if (markBmi > johnBmi) {
   console.log(`Mark's ${markBmi} BMI is higher than Jon's`);
 } else {
   console.log(`Jon's ${johnBmi} BMI is higher than Mark's`);
 }
 
+console.log(`\n`);
 // ============================================
 //  Problem: Coding Challenge #3
 //  Date: 2025-07-15
@@ -94,6 +98,7 @@ if (markBmi > johnBmi) {
 // § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 // GOOD LUCK 😀
 
+console.log(`*****************Challenge 3**********************`);
 const dolphinAverage = (96 + 108 + 89) / 3;
 
 const koalasAverage = (88 + 91 + 110) / 3;
@@ -109,7 +114,9 @@ if (dolphinAverage > koalasAverage) {
 } else {
   console.log(`The winner is koalas 🥇 with ${koalasAverage} points`);
 }
+console.log(`\n`);
 
+console.log(`**********************Challenge 3 Bonus 1*****************`);
 // Bonus 1
 
 const score = 100;
@@ -128,9 +135,11 @@ if (bonusOneDolphinAverage > score) {
 } else {
   console.log(`No winner`);
 }
+console.log(`\n`);
 
 // Bonus 2
 
+console.log(`****************Challenge 4 Bonus 2********************** `);
 const bonusTwoDolphinAverage = (97 + 112 + 101) / 3;
 const bonusTwoKoalasAverage = (109 + 95 + 106) / 3;
 
@@ -144,6 +153,7 @@ if (
   console.log(`No team wins the trophy`);
 }
 
+console.log(`\n`);
 // ============================================
 //  Problem: Coding Challenge #4
 //  Date: 2025-07-15
@@ -187,6 +197,7 @@ if (
 //   console.log(`No tip and bill`);
 // }
 
+console.log(`**********************Challenge 4********************** `);
 const bill = 40;
 const tip = 0.2 * bill;
 
@@ -203,4 +214,4 @@ const tipCalculaor =
         } `
       );
 
-// JavaScript Fundamentals – Part 2
+console.log(`\n`);
