@@ -78,3 +78,23 @@ const game = {
     team2: 6.5,
   },
 };
+
+// 1
+
+const [, second] = game.players;
+const [first, ,] = game.players;
+
+const player1 = first;
+const player2 = second;
+
+console.log(player1);
+console.log(player2);
+
+// 2
+
+// team1
+
+const [x, ,] = game.players;
+const gk = x[0];
+
+console.log(gk);
