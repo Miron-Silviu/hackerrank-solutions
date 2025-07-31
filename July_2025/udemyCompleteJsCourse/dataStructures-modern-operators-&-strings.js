@@ -77,6 +77,11 @@ const game = {
     x: 3.25,
     team2: 6.5,
   },
+  odds: {
+    team1: 1.33,
+    draw: 3.25,
+    team2: 6.5,
+  },
 };
 
 // 1
@@ -93,3 +98,14 @@ console.log(gk2, fieldPlayers2);
 // 3
 const allPlayers = [...game.players[0], ...game.players[1]];
 console.log(allPlayers);
+
+// 4
+
+const [players1Final] = game.players;
+players1Final.push('Thiago', 'Coutinho', 'Persic');
+console.log(players1Final);
+
+// 5
+
+const { team1, draw, team2 } = game.odds;
+console.log(team1, draw, team2);
