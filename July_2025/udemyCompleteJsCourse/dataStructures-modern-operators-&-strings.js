@@ -77,10 +77,12 @@ const game = {
     x: 3.25,
     team2: 6.5,
   },
-  odds: {
-    team1: 1.33,
-    draw: 3.25,
-    team2: 6.5,
+
+  printGoals: function (...players) {
+    console.log(
+      `${players[0]} scored 0 goals. ${players[1]} scored 0 goals. ${players[2]} scored`,
+      this.odds.team1 + ' ' + `goal  and ${players[3]} scored 0 goals`
+    );
   },
 };
 
@@ -109,3 +111,11 @@ console.log(players1Final);
 
 const { team1, draw, team2 } = game.odds;
 console.log(team1, draw, team2);
+
+// 6
+game.printGoals('Devis', 'Muller', 'Lewandowski', 'Kimmich');
+
+// 7
+
+const { odds } = game;
+console.log(odds.team1 < odds.team2);
