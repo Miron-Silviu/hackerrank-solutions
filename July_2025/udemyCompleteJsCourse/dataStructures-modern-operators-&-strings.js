@@ -81,20 +81,15 @@ const game = {
 
 // 1
 
-const [, second] = game.players;
-const [first, ,] = game.players;
-
-const player1 = first;
-const player2 = second;
-
-console.log(player1);
-console.log(player2);
+const [player1, players] = game.players;
+console.log(player1, players);
 
 // 2
 
-// team1
+const [[gk1, ...fieldPlayers1], [gk2, ...fieldPlayers2]] = game.players;
+console.log(gk1, fieldPlayers1);
+console.log(gk2, fieldPlayers2);
 
-const [x, ,] = game.players;
-const gk = x[0];
-
-console.log(gk);
+// 3
+const allPlayers = [...game.players[0], ...game.players[1]];
+console.log(allPlayers);
