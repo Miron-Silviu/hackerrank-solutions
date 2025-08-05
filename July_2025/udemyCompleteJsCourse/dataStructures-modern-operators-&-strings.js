@@ -64,6 +64,29 @@ const zoo = ['zebra', 'monkey', 'giraffe'];
 const [firstAnimal] = zoo;
 console.log(firstAnimal);
 
+// 4. Destructure the second and third numbers into 'second' and 'third':
+const numbers = [10, 20, 30, 40];
+
+const [, seconds, thirds] = numbers;
+console.log(seconds, thirds);
+
+// 5. Destructure the array so that 'head' gets the first item and 'tail' gets the rest:
+const tools = ['hammer', 'screwdriver', 'wrench', 'drill'];
+
+const [head, , , tail] = tools;
+console.log(head, tail);
+
+// 6. Destructure the values into variables x, y and use '_' to skip the middle value:
+const data = [1, 99, 2];
+
+const [g, , h] = data;
+console.log(x, y);
+
+// 7. Destructure to get the last item using length - 1:
+const days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'];
+
+const lastDay = days[days.length - 1];
+console.log(lastDay);
 // ============================================
 //  Problem: Coding Challenge #1
 //  Date: 2025-07-17
