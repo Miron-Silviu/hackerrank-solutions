@@ -87,6 +87,45 @@ const days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'];
 
 const lastDay = days[days.length - 1];
 console.log(lastDay);
+
+// ADVANCED
+
+// 1. Destructure the nested arrays to get the numbers 3 and 6:
+const nested = [1, [2, 3], 4, [5, 6]];
+
+const [, [, n1], , [, n2]] = nested;
+console.log(n1, n2);
+
+// 2. Destructure the array and assign default values to x and y in case they are undefined:
+const input = [undefined];
+// Expected: x = 'defaultX', y = 'defaultY'
+
+const [X, Y] = input;
+if (X == undefined) console.log('x = defaulX');
+if (Y == undefined) console.log('y = defaultY');
+
+// 3. Write a function that takes an array with two values and destructures them into variables a and b:
+function swapTwo([a, b]) {
+  // log a and b
+  console.log('a:', 100);
+  console.log('b:', 1000);
+}
+
+swapTwo(a, b);
+
+// 4. You have an array of arrays. Loop over it and destructure each inner array into variables:
+const pairs = [
+  [1, 2],
+  [3, 4],
+  [5, 6],
+];
+// Expected: log "Pair: 1 & 2", "Pair: 3 & 4", ...
+
+for (let i = 0; i < pairs.length; i++) {
+  const [first, second] = pairs;
+  console.log(`Pair: ${first} & Pair: ${second} & ....`);
+}
+
 // ============================================
 //  Problem: Coding Challenge #1
 //  Date: 2025-07-17
