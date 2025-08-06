@@ -23,13 +23,20 @@ Welcome! This repository showcases my consistent commitment to sharpening my pro
 
 ## 📅 Problem Solving Log — July 2025 (Summary)
 
-| Date       | Language   | Topics         | Skills                  | Difficulty | Subdomains | Problem Name       | HackerRank Link                                                             |
-| ---------- | ---------- | -------------- | ----------------------- | ---------- | ---------- | ------------------ | --------------------------------------------------------------------------- |
-| 2025-07-10 | JavaScript | Data Structure | Problem Solving (Basic) | Easy       | Arrays     | Select All         | [Problem](https://www.hackerrank.com/challenges/select-all/problem)         |
-| 2025-07-07 | JavaScript | Data Structure | Problem Solving (Basic) | Easy       | Arrays     | Array Manipulation | [Problem](https://www.hackerrank.com/challenges/array-manipulation/problem) |
+| Date        | Category      | Language   | Problem Name | Solution Link                                                                                                                                     |
+| ----------- | ------------- | ---------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2025-08-06  | Gradebook App | JavaScript | First Step   | [Code](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/review-js-fundamentals-by-building-a-gradebook-app/step-1) |
+| 2025-08-06  | Gradebook App | JavaScript | Second Step  | [Code](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/review-js-fundamentals-by-building-a-gradebook-app/step-2) |
+| 2025-08-06  | Gradebook App | JavaScript | Step 3       | [Code](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/review-js-fundamentals-by-building-a-gradebook-app/step-3) |
+| 2025-08- 06 | Gradebook App | JavaScript | Step 4       | [Code](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/review-js-fundamentals-by-building-a-gradebook-app/step-4) |
 
 <details>
   <summary>View full detailed table for July 2025 solutions</summary>
+
+| Date       | Language   | Topics         | Skills                  | Difficulty | Subdomains | Problem Name       | HackerRank Link                                                          |
+| ---------- | ---------- | -------------- | ----------------------- | ---------- | ---------- | ------------------ | ------------------------------------------------------------------------ |
+| 2025-07-10 | JavaScript | Data Structure | Problem Solving (Basic) | Easy       | Arrays     | Select All         | [Code](https://www.hackerrank.com/challenges/select-all/problem)         |
+| 2025-07-07 | JavaScript | Data Structure | Code Solving (Basic)    | Easy       | Arrays     | Array Manipulation | [Code](https://www.hackerrank.com/challenges/array-manipulation/problem) |
 
 | Date       | Category | Language   | Problem Name                | Solution Link                                                                                     |
 | ---------- | -------- | ---------- | --------------------------- | ------------------------------------------------------------------------------------------------- |
