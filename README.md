@@ -6,7 +6,7 @@ Welcome! This repository showcases my consistent commitment to sharpening my pro
 
 ## 🔗 FreeCodeCamp Profile
 
-[![freeCodeCamp Profile](https://img.shields.io/badge/🏆-freeCodeCamp%20Profile-0a0a23?style=for-the-badge&logo=freecodecamp&logoColor=white)](https://www.freecodecamp.org/fcc-a16cc117-663b-4925-95e0-bdb8c3ea669f)
+[![freeCodeCamp Profile](https://img.shields.io/badge/🏆-freeCodeCamp%20Profile-F7EA48?style=for-the-badge&logo=freecodecamp&logoColor=white)](https://www.freecodecamp.org/fcc-a16cc117-663b-4925-95e0-bdb8c3ea669f)
 
 ## 🔗 HackerRank Profile
 
