@@ -1,14 +1,20 @@
-# 🧠 HackerRank Daily Challenge Solutions
+# 🧠 Daily Challenge Solutions
 
 Welcome! This repository showcases my consistent commitment to sharpening my problem-solving skills through daily challenges on [HackerRank](https://www.hackerrank.com/profile/silviuumiron). It includes solutions spanning multiple domains such as Algorithms, Data Structures, Databases (SQL), Python, JavaScript, and more.
 
 ---
 
+## 🔗 FreeCodeCamp Profile
+
+[![freeCodeCamp Profile](https://img.shields.io/badge/🏆-freeCodeCamp%20Profile-0a0a23?style=for-the-badge&logo=freecodecamp&logoColor=white)](https://www.freecodecamp.org/fcc-a16cc117-663b-4925-95e0-bdb8c3ea669f)
+
 ## 🔗 HackerRank Profile
 
 [![HackerRank Profile](https://img.shields.io/badge/🏆-HackerRank%20Profile-2bbc8a?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/silviuumiron)
 
----
+## 🔗 LeetCode Profile
+
+[![LeetCode Profile](https://img.shields.io/badge/🏆-LeetCode%20Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Silviu_90/)
 
 ## 🚀 About This Repository
 
