@@ -126,6 +126,22 @@ for (let i = 0; i < pairs.length; i++) {
   console.log(`Pair: ${first} & Pair: ${second} & ....`);
 }
 
+// 5. Destructure an array to get the first item, skip the second, and get the third into variable 'third':
+const color = ['red', 'blue', 'green'];
+const [, , t] = color;
+console.log(t);
+
+// 6. Destructure this deeply nested array to get the value 'target':
+const deep = [0, [1, 2], [3, [4, [5, 'target']]]];
+
+const [, , [, [, [, target]]]] = deep;
+console.log(target);
+
+// 7. Use rest syntax to get the last two items of this array into a new array called 'lastTwo':
+const data2 = [10, 20, 30, 40, 50];
+
+const [, , , ...dataT] = data2;
+console.log(dataT);
 // ============================================
 //  Problem: Coding Challenge #1
 //  Date: 2025-07-17
