@@ -143,6 +143,7 @@ const data2 = [10, 20, 30, 40, 50];
 const [, , , ...dataT] = data2;
 console.log(dataT);
 // ============================================
+
 //  Problem: Coding Challenge #1
 //  Date: 2025-07-17
 //  Language: JavaScript
