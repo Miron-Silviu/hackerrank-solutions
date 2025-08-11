@@ -1,6 +1,7 @@
 'use stict';
 
 // ============================================
+// 1
 //  Problem: Destructuring Objects
 //  Date: 2025-08-09
 //  Language: JavaScript
@@ -31,6 +32,7 @@ const { hobby = ['Reading'] } = user;
 console.log(hobby);
 
 // ============================================
+// 2
 //  Problem: Basic Extraction
 //  Date: 2025-08-09
 //  Language: JavaScript
@@ -52,6 +54,7 @@ const { brand, year } = car;
 console.log(`This car is ${year} ${brand}`);
 
 // ============================================
+// 3
 //  Problem: Renaming While Destucturing
 //  Date: 2025-08-09
 //  Language: JavaScript
@@ -73,6 +76,7 @@ const { title: bookTitle, pages: totalPages } = book;
 console.log(`The ${bookTitle} has ${totalPages} pages.`);
 
 // ============================================
+// 4
 //  Problem: Default Values
 //  Date: 2025-08-09
 //  Language: JavaScript
@@ -93,6 +97,7 @@ const { theme, fontSize = 14 } = settings;
 console.log(`Theme : ${theme}, Font Size: ${fontSize}`);
 
 // ============================================
+// 5
 //  Problem: Nested Destructuring
 //  Date: 2025-08-09
 //  Language: JavaScript
@@ -120,6 +125,7 @@ const {
 console.log(`${Fullname} lives in ${Capitalcity}, ${country}`);
 
 // ============================================
+// 6
 //  Problem: Desturcturig in Function parameters
 //  Date: 2025-08-09
 //  Language: JavaScript
@@ -144,6 +150,7 @@ const product = {
 product.printProduct();
 
 // ============================================
+// 7
 //  Problem: Multipe defaults and renaming
 //  Date: 2025-08-10
 //  Language: JavaScript
@@ -164,6 +171,7 @@ const { handle, region: sector, rank = 'Padawan' } = profile;
 console.log(`${handle} from ${sector} is ${rank}`);
 
 // ============================================
+// 8
 //  Problem: Nested With Renaming
 //  Date: 2025-08-10
 //  Language: JavaScript
@@ -191,6 +199,7 @@ const {
 console.log(`${lastname} was painted by ${first} ${last}`);
 
 // ============================================
+// 9
 //  Problem: Depply nested
 //  Date: 2025-08-10
 //  Language: JavaScript
@@ -225,6 +234,7 @@ const {
 console.log(`${fullName} can not be reached at ${phone}`);
 
 // ============================================
+// 10
 //  Problem: Destructurin with rest properies
 //  Date: 2025-08-10
 //  Language: JavaScript
@@ -249,6 +259,7 @@ const { model, ...specs } = spaceship;
 console.log(model, specs);
 
 // ============================================
+// 11
 //  Problem: funtion parameter with defaults
 //  Date: 2025-08-10
 //  Language: JavaScript
