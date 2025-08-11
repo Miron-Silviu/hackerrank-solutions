@@ -7,3 +7,5 @@ let currentWeaponIndx = 0;
 let fighting;
 let monsterHealth;
 let inventory = ['stick'];
+
+console.log('Here');
