@@ -210,3 +210,68 @@ console.log(company.departments[0].employees[1].name);
 
 // Change "Hanna"’s position to "Lead Designer".
 console.log((company.departments[1].employees[1].position = 'Lead Designer'));
+
+// LESSON
+
+// BRACKT NOTATION
+
+// ============================================
+// 8
+//  Problem: Acess property with space
+//  Date: 2025-08-11
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+const movie = {
+  'release date': '2023-12-15',
+  director: 'Sofia Lee',
+};
+
+//  🔹 Task:
+
+// Log "release date" using bracket notation.
+console.log(movie['release date']);
+
+// Log director using bracket notation.
+console.log(movie['director']);
+
+// ============================================
+// 9
+//  Problem: Acess with dynamic keys
+//  Date: 2025-08-11
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+const device = {
+  brand: 'Pixel',
+  model: '6a',
+};
+
+const keyName = 'model';
+
+//  🔹 Task:
+
+// Log model using the variable keyName and bracket notation.
+
+console.log(device[keyName]);
+
+// ============================================
+// 10
+//  Problem: Update property with special characters:
+//  Date: 2025-08-11
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+const song = {
+  'song-title': 'Imagine',
+  artist: 'John Lennon',
+};
+
+//  🔹 Task:
+
+// Change "song-title" to "Hey Jude" using bracket notation.
+song['song-title'] = 'Hey Jude';
+console.log(song['song-title']);
