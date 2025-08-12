@@ -29,6 +29,8 @@ function goStore() {
   button1.onclick = buyHealth;
   button2.onclick = buyWeapon;
   button3.onclick = goTown;
+
+  //   TODO
 }
 goStore();
 

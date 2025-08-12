@@ -275,3 +275,28 @@ const song = {
 // Change "song-title" to "Hey Jude" using bracket notation.
 song['song-title'] = 'Hey Jude';
 console.log(song['song-title']);
+
+// ============================================
+// 11
+//  Problem: Update property with special characters:
+//  Date: 2025-08-11
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+const userProfile = {};
+const newKey = 'hobby';
+
+//  🔹 Task:
+// Add a property "hobby" with value "painting" using bracket notation and newKey.
+
+userProfile[newKey] = 'painting';
+console.log(userProfile);
+
+// ============================================
+// 12
+//  Problem: Update property with special characters:
+//  Date: 2025-08-11
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
