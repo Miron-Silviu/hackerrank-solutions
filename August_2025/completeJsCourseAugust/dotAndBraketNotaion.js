@@ -1,5 +1,8 @@
 'use strict';
 
+// DAY
+
+// LESSON DOT NOTATION
 // ============================================
 // 1
 //  Problem: Basic Property access
@@ -211,9 +214,7 @@ console.log(company.departments[0].employees[1].name);
 // Change "Hanna"’s position to "Lead Designer".
 console.log((company.departments[1].employees[1].position = 'Lead Designer'));
 
-// LESSON
-
-// BRACKT NOTATION
+// LESSON BRACKET NOTATION
 
 // ============================================
 // 8
@@ -276,10 +277,11 @@ const song = {
 song['song-title'] = 'Hey Jude';
 console.log(song['song-title']);
 
+// DAY STARTING
 // ============================================
 // 11
 //  Problem: Update property with special characters:
-//  Date: 2025-08-11
+//  Date: 2025-08-12
 //  Language: JavaScript
 //  Difficulty: Easy
 // ============================================
@@ -295,8 +297,225 @@ console.log(userProfile);
 
 // ============================================
 // 12
-//  Problem: Update property with special characters:
-//  Date: 2025-08-11
+//  Problem: Acces object properties using brackte notation:
+//  Date: 2025-08-12
 //  Language: JavaScript
 //  Difficulty: Easy
 // ============================================
+
+const movieName = {
+  title: 'Inception',
+  director: 'Christopher Nolan',
+  yearReleased: 2010,
+};
+
+//  🔹 Task
+
+// Use bracket notation to get the value of the "director" property and store it in a variable called directorName
+// console.log directorName
+
+const directorName = movieName['director'];
+console.log(directorName);
+
+// ============================================
+// 13
+//  Problem: Use variable to acces object properties:
+//  Date: 2025-08-12
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+const laptopMachine = {
+  brand: 'Dell',
+  model: 'xps 15',
+  processor: 'Intel i7',
+};
+
+const property = 'processor';
+
+//  🔹 Task
+
+// Use bracket notation and the variable 'property' to access the laptop's processor and print it
+console.log(laptopMachine[property]);
+
+// ============================================
+// 14
+//  Problem: Add new property using bracket notation:
+//  Date: 2025-08-12
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+const city = {
+  name: 'Toko',
+  country: 'Japan',
+};
+
+//  🔹 Task
+
+// Add a new property called "population" with value 14000000 using bracket notation
+// Then print the updated city object
+
+city['population'] = 1400000;
+
+console.log(city);
+
+// ============================================
+// 15
+//  Problem: Update property values using bracket notation:
+//  Date: 2025-08-12
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+const athlets = {
+  name: 'Serana Williams',
+  sport: 'Tenis',
+};
+
+//  🔹 Task
+
+// Update the sport to "Professional Tennis Player" using bracket notation
+// Print the updated athlete object
+
+athlets['sport'] = 'Profesional Tennis Player';
+
+console.log(athlets);
+
+// ============================================
+// 16
+//  Problem: Access nested object properties using brackte notation:
+//  Date: 2025-08-12
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+const library = {
+  section: {
+    fiction: {
+      booksAvailable: 120,
+      popularBook: '1984',
+    },
+  },
+};
+
+//  🔹 Task
+
+// Access the popularBook using bracket notation and print it
+
+console.log(library['section']['fiction']['popularBook']);
+
+// ============================================
+// 17
+//  Problem: Access nested object properties using brackte notation:
+//  Date: 2025-08-12
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+const phone = {
+  brand: 'Apple',
+  model: 'iPhone 13',
+  color: 'Midnight',
+};
+
+//  🔹 Task
+
+// Use bracket notation to delete the "color" property
+// Then print the updated phone object
+
+delete phone['color'];
+
+console.log(phone);
+
+// ============================================
+// 18
+//  Problem: Check if a property exist using bracket notation:
+//  Date: 2025-08-12
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+const recipe = {
+  name: 'Pancakes',
+  serving: '4',
+  ingradients: ['four', 'milk', 'eggs'],
+};
+
+//  🔹 Task
+
+// Use bracket notation and an if statement to check if the "servings" property exists
+// Print "Found" if it exists, otherwise "Not Found"
+
+if (recipe['serving']) {
+  console.log('Found!');
+} else {
+  console.log('Not found!');
+}
+
+// ============================================
+// 19
+//  Problem: Use varibale key to dinamicaly add property:
+//  Date: 2025-08-12
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+const country = {
+  name: 'Canada',
+  continent: 'Noth America',
+};
+
+const oldKey = 'population';
+const newValue = '38000000';
+
+//  🔹 Task
+
+// Add a new property to country using newKey and newValue with bracket notation
+// Print the updated country object
+
+country[oldKey] = newValue;
+
+console.log(country);
+
+// ============================================
+// 20
+//  Problem: Access array element inside an object using brackte notation:
+//  Date: 2025-08-12
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+const playlist = {
+  name: 'Chill Hits',
+  songs: ['Sunset Lover', 'Lose It', 'Electric Feel'],
+};
+
+//  🔹 Task
+
+// Access the second song using bracket notation and print it
+
+console.log(playlist['songs'][1]);
+
+// ============================================
+// 21
+//  Problem: Use bracket notation ro rename a property:
+//  Date: 2025-08-12
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+const employees = {
+  id: 101,
+  fullName: 'Jane Smith',
+  position: 'Developer',
+};
+
+//  🔹 Task
+
+// Rename the property 'fullName' to 'name' using bracket notation
+// Print the updated employee object
+
+employees['name'] = employees['fullName'];
+delete employees['fullName'];
+console.log(employees);
