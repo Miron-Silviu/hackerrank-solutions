@@ -66,3 +66,84 @@ const dog = {
 };
 
 console.log(dog.info());
+
+// Starting DAY
+
+// ============================================
+// 4
+//  Problem: this in a Object Method:
+//  Date: 2025-08-17
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+//  🔹 Task
+
+// Create an object user with:
+// a property name (your name)
+// a method sayName() that logs "My name is ___" using this.name.
+// Call the method.
+
+const user = {
+  name: 'Jhon',
+  sayName: function () {
+    console.log(`My name is ${this.name}`);
+  },
+};
+
+user.sayName();
+
+// ============================================
+// 5
+//  Problem: this with multiple properties:
+//  Date: 2025-08-17
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+//  🔹 Task
+
+// Make an object rectangle with:
+// width = 5
+// height = 10
+// a method area() that uses this.width and this.height to return the area.
+// Call the method and log the result.
+
+const rectangle = {
+  width: 5,
+  height: 10,
+  area: function () {
+    return this.width * this.height;
+  },
+};
+
+console.log(rectangle.area());
+
+// ============================================
+// 5
+//  Problem: update properties with this:
+//  Date: 2025-08-17
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+//  🔹 Task
+
+// Create an object counter with:
+// a property count = 0
+// a method increment() that adds 1 to this.count
+// a method reset() that sets this.count back to 0
+// Test the methods.
+
+const counter = {
+  count: 0,
+  increment: function () {
+    return ++this.count;
+  },
+  reset: function () {
+    return --this.count;
+  },
+};
+
+console.log(counter.increment());
+console.log(counter.reset());
