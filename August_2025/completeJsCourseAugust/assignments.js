@@ -445,3 +445,100 @@ for (let i = 0; i < books.length; i++) {
     (books[i].highlighted &&= !(books[i].thirdParty.goodreads.rating < 4.2))
   );
 }
+
+// ============================================
+// 7
+//  Problem: For of loop
+//  Date: 2025-08-22
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// 8.1 Use the for-of loop to loop over the books arrays and sum the pages of all books. Use the pageSum variable below, and the pages propeerty of the book object
+
+console.log(`*************************8.1******************`);
+
+let pageSum = 0;
+for (let book of books) {
+  console.log((pageSum += book.pages));
+}
+
+// 8.2 Bellow is the all Authors varibales which stores an empty array. Use the for-of loop to fill allAuthors with the authors of each book from the books array
+
+console.log(`*************************8.2******************`);
+
+const allAuthors = [];
+
+for (const book of books) {
+  if (typeof book.author === 'string') {
+    allAuthors.push(book.author);
+  } else {
+    for (const author of book.author) {
+      allAuthors.push(author);
+    }
+  }
+}
+
+console.log(allAuthors);
+
+console.log(`*************************8.3******************`);
+
+// 8.3 Use the for-of loop together with Array's entries() methord to log each author from allAuthors to the console together with its index. Make the index start from 1 insted of 0
+
+for (const [index, author] of allAuthors.entries()) {
+  console.log(`${index + 1}. ${author}`);
+}
+
+// ============================================
+// 8
+//  Problem: Sum of Array
+//  Date: 2025-08-22
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+//  TODO use a for of loop to calculate the sum of all numbers in the array
+
+let numbers = [2, 4, 6, 8, 10];
+
+let sum = 0;
+for (let total of numbers) {
+  sum += total;
+}
+console.log(sum);
+
+// ============================================
+// 8
+//  Problem: Count Vowels
+//  Date: 2025-08-22
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// TODO Write a program that counts how many vowels are in the string "Hello World"
+
+// const str = 'Hello World';
+
+// let vowelsCount = 0;
+// let vowels = ['a', 'e', 'i', 'o', 'u'];
+// for (const string of str) {
+//   console.log(string.split(''));
+//   if (vowels.includes(string)) {
+//     vowels++;
+//   }
+// }
+
+// console.log(vowels);
+
+function getCount(str) {
+  let vowelsCount = 0;
+  let vowels = ['a', 'e', 'i', 'o', 'u'];
+  for (let char of str.toLowerCase()) {
+    if (vowels.includes(char)) {
+      vowelsCount++;
+    }
+  }
+  return vowelsCount;
+}
+
+console.log(getCount('Hello World'));
