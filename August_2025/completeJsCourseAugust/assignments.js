@@ -380,3 +380,68 @@ function printBookAuthorsCount(title, ...authors) {
   The book " ${title}" has ${authors.length} authors`);
 }
 printBookAuthorsCount('Algorithms', 'Robert Sedgewick', 'Kevin Wayne');
+// ============================================
+// 5
+//  Problem: Short Circuiting (&& and ||)
+//  Date: 2025-08-22
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// 5.1 Some of the book objects have the programmingLanguage property, which specifies what programming languaage us used in the book
+
+// Write a function called hasExmaplesInJava that takes a book object fro the books arrays as an argument.This function should return true if book uses Java, or a string'no data available' if it uses other language or no programming laanguage at all.
+
+function hasExamplesInJava(books) {
+  return books.programmingLanguage === 'JAVA' || 'no data available ';
+}
+console.log(`*************************5.1******************`);
+console.log(hasExamplesInJava(books[0]));
+
+// 5.2 Some of the book object have the onlineContent provertry, which is eithre trye or false. Loop over the  books array and for the books that provide online content,log to the console a string in this format. "${title}" provide online content. Use shor-circuting.
+
+console.log(`*************************5.2******************`);
+for (let i = 0; i < books.length; i++) {
+  books[i].onlineContent &&
+    console.log(`"${books[i].title}" provides online content`);
+}
+
+// ============================================
+// 6
+//  Problem: The Nullish Coalescing Operator (??)
+//  Date: 2025-08-22
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// 6.1 There are objects in the books array that don't have the onlineContent property at all. Loop over the books array, and log a string to the console in this format :"${title}" provide no data about its online content.
+
+console.log(`*************************6.1******************`);
+for (let i = 0; i < books.length; i++) {
+  books[i].onlineContent ??
+    console.log(`"${books[i].title}" provide no data about its online content`);
+}
+
+// ============================================
+// 7
+//  Problem: Logical Assignments Operators
+//  Date: 2025-08-22
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// 7.1 Some of the book objects from the books arrays are missing the edition property. Loop over the books, and assign this property with a number 1 (if it doesn't already exist).Use logical assignment operators.
+
+console.log(`*************************7.1******************`);
+for (let i = 0; i < books.length; i++) {
+  console.log((books[i].edition ||= 1));
+}
+
+// 7.2 Some of the book objects from the books array have the highlighted property, wich by default is set to true. Iteate over the books array, and if the thirdParty.goodreads.rating property is less tha 4.2 reassign it with false.
+
+console.log(`*************************7.2******************`);
+for (let i = 0; i < books.length; i++) {
+  console.log(
+    (books[i].highlighted &&= !(books[i].thirdParty.goodreads.rating < 4.2))
+  );
+}
