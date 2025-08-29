@@ -584,3 +584,74 @@ const newBook2 = {
 };
 
 console.log(newBook2);
+
+// ASSIGNMENT OPTIONAL CHAINING
+
+// ============================================
+//
+//  Problem: Optional chaining:
+//  Date: 2025-08-27
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// 10.1
+
+// TODO Wrtite a function called getFirstKeyword that takes the book object as an agument . This function shourld return the first keywrd from the book;s keyword property(arrya) or undefined (if they keyword property doesn't exits). It shouldn't throw an error. Use optional chaining for that.
+
+// function getFirstKeyword(book) {
+//   return book.keywords?.[0];
+// }
+// console.log(getFirstKeyword(books[0]));
+
+// ///////////////////////////////////////////////////////////////////
+// ASSIGNMENT lOOPING Objects: Object keys, Values and Entries
+
+// Below is the entries variables that stores an smplty array. Use the for-of loop together with the Object. keys() method to loop over the thirdParty. goodreads property(array) of the first book object from the  book array. For each key, push a new array tath contains they key to the entries array.
+
+// In the end, the entries arrays should be filled with array containing keys:
+
+// 11.1
+console.log(`*********************************11.1***********************`);
+
+// [
+//   ['rating'],
+//   ['ratingCount'],
+//   ['reviewsCount'],
+//   ['fiveStarRatingCount'],
+//   ['oneStarRatingCount'],
+// ];
+
+const entries = [];
+
+for (const party of Object.keys(books[0].thirdParty.goodreads)) {
+  entries.push([party]);
+}
+
+console.log(entries);
+
+// 11.2 The Object.values() method returns an array, whch means you can call the Array's entries() method on it, for example,
+// Object.entries(book[0].thirdParty.goodreads).entries().The Array's entries() method returns [index, value] arrays for each element in the array.
+
+// Use the for-of loop together with the Object. values() method and Array's entries() method to loop over thirdParty.goodreads property of the first book from the books array.
+
+// Push each value to the appropiat inner arrray in the entries array(use inded from entries())
+
+console.log(`*********************************11.2***********************`);
+
+for (const [index, value] of Object.values(
+  books[0].thirdParty.goodreads
+).entries()) {
+  entries[index].push(value);
+  console.log(index, value);
+}
+
+console.log(`*********************************11.3***********************`);
+
+// 11.3 Use Object.entries() method on the thirdParty.goodreads property of the first book from books arrays. Assign the return value to the varibale called entries 2
+
+const entries2 = Object.entries(books[0].thirdParty.goodreads);
+console.log(entries);
+
+console.log(`*********************************11.3***********************`);
+console.log(entries, entries2);
