@@ -1,4 +1,3 @@
-function getFirstKeyword(book) {
-  return book.keywords?.[0];
-}
-console.log(getFirstKeyword(books[0]));
+Object.keys(user).forEach((key) => {
+//   console.log(key);
+// });
