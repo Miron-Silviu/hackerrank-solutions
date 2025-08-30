@@ -268,10 +268,8 @@ const city = {
 // TODO Print how many keys and values the object has
 
 console.log(`************************** 12 **********************`);
-for (const [key, value] of Object.entries(city)) {
-  console.log(key, value);
-}
-
+console.log(Object.keys(city).length);
+console.log(Object.values(city).length);
 // ============================================
 // 13
 //  Problem: Combine Keys and Values into String
