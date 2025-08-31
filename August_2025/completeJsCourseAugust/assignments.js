@@ -655,3 +655,42 @@ console.log(entries);
 
 console.log(`*********************************11.3***********************`);
 console.log(entries, entries2);
+
+// ASSIGNMENT SETS
+
+// Below is the allkeywords varibales, which stores an empty array. Loop over the books array and fill the allKeywords array with the keyword comming from the keywords property of ecah book object. The allKeywords array should have just one level (no nested arrays)
+
+// Use whatever loop and methods you want. You can also use the spread syntax.In the end, the allkyewords array should look more or less like this
+// ['computer scence,'programming','algorithms,'data structures',...]
+
+console.log(`*********************************12.1***********************`);
+const allkeywords = [];
+
+for (const book of books) {
+  allkeywords.push(...book.keywords);
+}
+console.log(allkeywords);
+
+console.log(`*********************************12.2***********************`);
+const uniqueKeywords = new Set(allkeywords);
+console.log(uniqueKeywords);
+
+console.log(`*********************************12.3***********************`);
+
+uniqueKeywords.add('coding ');
+uniqueKeywords.add('science');
+console.log(uniqueKeywords);
+
+console.log(`*********************************12.4***********************`);
+
+uniqueKeywords.delete('business');
+console.log(uniqueKeywords);
+
+console.log(`*********************************12.5***********************`);
+
+const uniqueKeywordsArr = [...uniqueKeywords];
+console.log(uniqueKeywordsArr);
+
+console.log(`*********************************12.6***********************`);
+uniqueKeywords.clear();
+console.log(uniqueKeywords);
