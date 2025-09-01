@@ -88,3 +88,122 @@ function string(str) {
 }
 
 console.log(string('Hello'));
+
+// ============================================
+// 2
+//  Problem: Basic Operation
+//  Date: 2025-09-01
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+console.log(`********************* Exercise Number 2 *******************`);
+
+// 1 Create a Set A with elements [1, 2, 3, 4].
+
+const elements = new Set([1, 2, 3, 4]);
+console.log(elements);
+
+// 2 Add 5 to the set.
+elements.add(5);
+console.log(elements);
+
+// 3 Check if 3 is in the set.
+elements.has(3);
+console.log(elements);
+// 4 Remove 2 from the set.
+elements.delete(2);
+console.log(elements);
+
+// 5 Print the size of the set.
+console.log(elements.size);
+
+// 6 Clear the set.
+// console.log(elements.clear());
+
+// ============================================
+// 3
+//  Problem: Union
+//  Date: 2025-09-01
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+console.log(`********************* Exercise Number 3 *******************`);
+// Create Set B = [1,2,3] and Set C = [3,4,5]
+// Create a union set containing all unique elements from B and C
+// Print the union
+const setB = [1, 2, 3];
+const setC = [3, 4, 5];
+const union = new Set([...setB, ...setC]);
+console.log(union);
+
+// ============================================
+// 4
+//  Problem: Intersection
+//  Date: 2025-09-01
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// Create setD =[1,2,3] and setE = [2,3,4]
+// Create a new set containing only elements paresent in both D and E
+// Print the instersction
+
+const setD = new Set([1, 2, 3]);
+const setE = new Set([2, 3, 4]);
+
+const intersection2 = setD.intersection(setE);
+console.log(intersection2);
+
+// ============================================
+// 4
+//  Problem: Differece
+//  Date: 2025-09-01
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+console.log(`********************* Exercise Number 4 *******************`);
+// Create Set F = [1,2,3,4] and Set G = [2,3].
+// Create a new set containing elements in F but not in G.
+// Print the difference set
+
+const setF = new Set([1, 2, 3, 4]);
+const setG = new Set([2, 3]);
+
+const differece = setF.difference(setG);
+console.log(differece);
+
+// ============================================
+// 5
+//  Problem: SymetricDyfference
+//  Date: 2025-09-01
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+console.log(`********************* Exercise Number 5 *******************`);
+// Create Set H = [1,2,3] and Set I = [2,3,4].
+// Create a new set containing elements in H or I but not in both.
+// Print the symmetric difference set.
+
+const setH = new Set([1, 2, 3, 4]);
+const setI = new Set([2, 3, 4]);
+
+const symetric = setH.symmetricDifference(setI);
+console.log(symetric);
+
+// ============================================
+// 6
+//  Problem: Subset
+//  Date: 2025-09-01
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+console.log(`********************* Exercise Number 6 *******************`);
+// Create Set J = [1,2] and Set K = [1,2,3,4].
+// Check if J is a subset of K.
+
+const setJ = new Set([1, 2]);
+const setK = new Set([1, 2, 3, 4]);
+
+const subset = setJ.isSubsetOf(setK);
+console.log(subset);
