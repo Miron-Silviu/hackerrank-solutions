@@ -1,3 +1,7 @@
+'use strict';
+
+console.log('Text');
+
 let xp = 0;
 let health = 100;
 let gold = 50;
@@ -16,12 +20,16 @@ const goldText = document.querySelector('#goldText');
 const monsterStats = document.querySelector('#monsterStats');
 const monsterName = document.querySelector('#monsterName');
 const monsterHealthText = document.querySelector('#monsterHealth');
+
+console.log('JS loaded:', button1); // Should print the button element
+
 const weapons = [
   { name: 'stick', power: 5 },
   { name: 'dagger', power: 30 },
   { name: 'claw hammer', power: 50 },
   { name: 'sword', power: 100 },
 ];
+
 const locations = [
   {
     name: 'town square',
@@ -53,7 +61,7 @@ const locations = [
   },
 ];
 
-// initialize buttons
+// Initialize buttons
 button1.onclick = goStore;
 button2.onclick = goCave;
 button3.onclick = fightDragon;
@@ -71,17 +79,11 @@ function update(location) {
 function goTown() {
   update(locations[0]);
 }
-
 function goStore() {
   update(locations[1]);
 }
-
 function goCave() {
   update(locations[2]);
-}
-
-function fightDragon() {
-  fighting = 2;
 }
 
 function buyHealth() {
@@ -109,16 +111,10 @@ function buyWeapon() {
       text.innerText = 'You do not have enough gold to buy a weapon.';
     }
   } else {
-    text.innerText = 'You already have the most powerful weapon !';
+    text.innerText = 'You already have the most powerful weapon!';
     button2.innerText = 'Sell weapon for 15 gold';
-    button2.onclick = sellWeapon();
+    button2.onclick = sellWeapon;
   }
-}
-
-function fightSlime() {}
-
-function fightBeast() {
-  fighting = 1;
 }
 
 function sellWeapon() {
@@ -128,34 +124,29 @@ function sellWeapon() {
     let currentWeapon = inventory.shift();
     text.innerText = 'You sold a ' + currentWeapon + '.';
     text.innerText += ' In your inventory you have: ' + inventory;
-    inventory.length < 1;
-    text.innerText = "Don't sell your only weapon! ";
+  } else {
+    text.innerText = "Don't sell your only weapon!";
   }
 }
 
-const monsters = [
-  {
-    name: 'slime',
-    level: 2,
-    health: 15,
-  },
-  {
-    name: 'fanged beast',
-    level: 8,
-    health: 600,
-  },
-  {
-    name: 'dragon',
-    level: 20,
-    health: 300,
-  },
-];
-
-function goFight() {
+function fightSlime() {
   fighting = 0;
   goFight();
 }
-
-function attack() {}
-
-function dodge() {}
+function fightBeast() {
+  fighting = 1;
+  goFight();
+}
+function fightDragon() {
+  fighting = 2;
+  goFight();
+}
+function attack() {
+  /* attack logic */
+}
+function dodge() {
+  /* dodge logic */
+}
+function goFight() {
+  update(locations[3]);
+}
