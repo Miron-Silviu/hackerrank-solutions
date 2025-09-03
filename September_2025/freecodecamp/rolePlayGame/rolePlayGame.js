@@ -154,10 +154,11 @@ const monsters = [
 ];
 
 function goFight() {
-  fighting = 0;
-  goFight();
+  update(locations[3]);
+  monsterHealth = monsters[fighting].health;
 }
 
+console.log(goFight());
 function attack() {}
 
 function dodge() {}
