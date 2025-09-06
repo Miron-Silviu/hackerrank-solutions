@@ -259,3 +259,23 @@ console.log(bookMap.size);
 console.log(
   bookMap.has('author') ? 'The author of the book is known ' : 'No author'
 );
+
+// ASSIGNMENT
+// ============================================
+// 2
+//  Problem: Map Iteration
+//  Date: 2025-08-03
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// 14.1 Convert the first book object from the books array into a Map, and assign it to a firstBookMap variable.
+
+const fistBookMap = new Map(Object.entries(books[0]));
+console.log(fistBookMap);
+
+// 14.1 Use the for-of loop to iterate over fisrtBookMap, and log to the console keys that have numbers as values.
+
+for (const [key, value] of fistBookMap) {
+  if (typeof value === 'number') console.log(key);
+}
