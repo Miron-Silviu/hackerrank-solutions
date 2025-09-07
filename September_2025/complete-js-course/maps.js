@@ -47,3 +47,81 @@ const countries = new Map([
   ['Spain', 'Madrid'],
   ['Italy', 'Rome'],
 ]);
+if (countries.has('Japan')) {
+  console.log('Japan');
+} else {
+  console.log(countries.set('Japan', 'Tokyo'));
+}
+
+// 3
+const fruits = new Map();
+
+fruits.set('apple', 23);
+fruits.set('oranges', 20);
+fruits.set('mango', 35);
+fruits.set('watermelo', 40);
+
+for (const [fruit, price] of fruits) {
+  console.log(`Fruit ${fruit}, Price ${price}`);
+}
+
+const movies = new Map([
+  ['Inception', 2010],
+  ['Tenet', 2020],
+  ['Interstelar', 2014],
+]);
+
+for (const [movie, year] of movies) {
+  console.log(`Movie ${movie}, Year ${year}`);
+}
+
+// Intermediat level
+
+// 4 Write a function that takes a string and returns a Map where keys are words and values are thier counts
+
+// Example "hello world, hello" {"hello " ->2 "World"->1}
+
+// function string(str) {
+//   let words = str.split(' ');
+
+//   const frequencyMap = new Map();
+//   for (const word of words) {
+//     if (frequencyMap.has(word)) {
+//       frequencyMap.set(word, frequencyMap.get(word) + 1);
+//     } else {
+//       frequencyMap.set(word, 1);
+//     }
+//   }
+//   return frequencyMap;
+// }
+
+// const text = 'hello world hello';
+// const result = wordFrequency(text);
+
+// for (const [word, count] of result) {
+//   console.log(`Word: ${word}, Count: ${count}`);
+// }
+
+function wordFrequency(str) {
+  const words = str.split(' ');
+  const frequencyMap = new Map();
+
+  for (const word of words) {
+    if (frequencyMap.has(word)) {
+      frequencyMap.set(word, frequencyMap.get(word) + 1);
+    } else {
+      frequencyMap.set(word, 1);
+    }
+  }
+
+  return frequencyMap;
+}
+
+// Example usage:
+const text = 'hello world hello';
+const result = wordFrequency(text);
+
+// Print the result
+for (const [word, count] of result) {
+  console.log(`Word: ${word}, Count: ${count}`);
+}
