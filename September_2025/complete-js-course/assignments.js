@@ -238,27 +238,27 @@ const books = [
 
 // 13.1 Create a new book, but this time,as a Map. Assign it to the bookMap variable. Use this array as initial data:
 
-const bookMap = new Map([
-  ['title', 'Clean Code'],
-  ['author', 'Robert C. Martin'],
-]);
+// const bookMap = new Map([
+//   ['title', 'Clean Code'],
+//   ['author', 'Robert C. Martin'],
+// ]);
 
-console.log(bookMap);
+// console.log(bookMap);
 
 // 13.2  Set a new key in bookMap called page, and assign it with a number 464
 
-bookMap.set('pages', 464);
-console.log(bookMap);
+// bookMap.set('pages', 464);
+// console.log(bookMap);
 
 // 13.4 Get the size of bookMap, and log it to the console
 
-console.log(bookMap.size);
+// console.log(bookMap.size);
 
 // 13.5 Check if bookMap has the author key. and if so, log "The author of the book is known " to the console
 
-console.log(
-  bookMap.has('author') ? 'The author of the book is known ' : 'No author'
-);
+// console.log(
+//   bookMap.has('author') ? 'The author of the book is known ' : 'No author'
+// );
 
 // ASSIGNMENT
 // ============================================
@@ -271,11 +271,48 @@ console.log(
 
 // 14.1 Convert the first book object from the books array into a Map, and assign it to a firstBookMap variable.
 
-const fistBookMap = new Map(Object.entries(books[0]));
-console.log(fistBookMap);
+// const fistBookMap = new Map(Object.entries(books[0]));
+// console.log(fistBookMap);
 
 // 14.1 Use the for-of loop to iterate over fisrtBookMap, and log to the console keys that have numbers as values.
 
-for (const [key, value] of fistBookMap) {
-  if (typeof value === 'number') console.log(key);
+// for (const [key, value] of fistBookMap) {
+//   if (typeof value === 'number') console.log(key);
+// }
+
+// ASSIGNMENT
+// ============================================
+// 3
+//  Problem: Working with Strings-Part 1
+//  Date: 2025-08-11
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// 15.1
+// Take the ISBN properyt of the first book from the books array, and log to the console characteres at index 6,4,9 and 8. Use bracket notation to access individual characters
+
+console.log(books[0].ISBN[6]);
+console.log(books[0].ISBN[4]);
+console.log(books[0].ISBN[9]);
+console.log(books[0].ISBN[8]);
+
+// 15.2
+
+// Below is the quote variable that stores a sting. Find the index of the word "chess", and log it to the console.
+
+const quote =
+  'A computer once beat me at chess, but it was no match for me at kick boxing';
+
+// 15.3 Extract the word"boxing" from the same quote string, and log it to the console.
+
+console.log(quote.slice(quote.lastIndexOf(' ') + 1));
+
+// 15.4 Some authors are noted as "(Contributor)", for example "Julie Sussan (Contributor) " .Create a function called isContributor that takes an author's name as an agurment, and returns either true (if he's contributor) or false (if he's not a contributor). The sting "Contributor" is alwaysthe last part of the author's name stirng
+
+function isContributor(name) {
+  const tag = name.slice(name.lastIndexOf('('));
+  return tag === '(Contributor)';
 }
+console.log(isContributor('Julie Sussman (Contributor)'));
+console.log(isContributor('Harold Abelson'));

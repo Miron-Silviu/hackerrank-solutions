@@ -1,9 +1,11 @@
-const car = new Map([
-//   [1, 'Land Rover'],
-//   [2, 'Mercedez Benz'],
-//   [3, 'Dacia Duster'],
-//   [4, 'Renault'],
-// ]);
-
-// car.delete(1);
-// console.log(car);
+function isContributor(name) {
+//   name = books[1].author.lastIndexOf('(Contributor)');
+//   console.log(name);
+//   if (name === '(Contributor)') {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// isContributor('Julie Sussman (Contributor)');
+// isContributor('Harold Abelson');
