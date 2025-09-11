@@ -1,11 +1,10 @@
-function isContributor(name) {
-//   name = books[1].author.lastIndexOf('(Contributor)');
-//   console.log(name);
-//   if (name === '(Contributor)') {
-//     return true;
-//   } else {
-//     return false;
-//   }
-// }
-// isContributor('Julie Sussman (Contributor)');
-// isContributor('Harold Abelson');
+const str = 'Hello [World]';
+
+// const removeFirst = str.indexOf('[');
+// const removeSecond = str.indexOf(']');
+
+// const getString = str.slice(removeFirst + 1, removeSecond);
+
+// console.log(removeFirst);
+// console.log(removeSecond);
+// console.log(getString);
