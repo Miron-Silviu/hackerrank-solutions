@@ -316,3 +316,117 @@ function isContributor(name) {
 }
 console.log(isContributor('Julie Sussman (Contributor)'));
 console.log(isContributor('Harold Abelson'));
+
+// ASSIGNMENT
+// ============================================
+// 3
+//  Problem: Working with Strings -Part 2
+//  Date: 2025-08-11
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// 16.1 Write a function called normalizeAuthorName that takes an author's name(string) as an argument, and return the same string, but the first name and the last name are capitalized,and the "(Contributor)" part is removed(if exists)
+
+// You can be sure that the author name always consists ot two words separtated b a space and possibly ends with"(Contributor)". The string may also contain trailing spaces
+
+const normalizAuthorName = function (name) {
+  const tolowercase = name.toLowerCase().split(' ');
+  const [first, second] = tolowercase;
+  const firstuppercase = first.charAt([0]).toUpperCase() + first.slice(1);
+  const seconstUpper = second.charAt(0).toUpperCase() + second.slice(1);
+  return `${firstuppercase} ${seconstUpper}`;
+};
+
+console.log(normalizAuthorName('JuliE sussMan (Contributor)'));
+console.log(normalizAuthorName('gefrine mcguire'));
+
+// 16.2 Take the title of the second book(book[1]) from the boos array, and replace the word "Program" with " Software". Assign the new string to the newBookTitle variable
+
+const newBookTitle = books[1].title.replace('Programs', 'Software');
+console.log(newBookTitle);
+
+console.log(`************************** 16.3************************`);
+
+// 16.3 Write a function called logBookTheme that takes book's title (sting), and logs to the console " This book is about computers" if the title starts with the word "Computers"
+
+// "This book is about algorithms and data structures" if the title includes both the "algorithma " and "structures"words,
+
+// and "THis book is about som systems, but definitely not about operating systems" if the title ends with word "system" or "systems", but doesn't include the word "operating"
+
+const logBookTHeme = function (booksArray) {
+  booksArray.forEach((book) => {
+    const title = book.title;
+
+    if (title.startsWith('Computer')) {
+      console.log(`${title}:This book is about computers`);
+    } else if (title.includes('algorithms') && title.includes('structures')) {
+      console.log(
+        ` ${title}: This book is about algorithms and data structures`
+      );
+    } else if (
+      (title.endsWith('system') || title.endsWith('systems')) &&
+      !title.includes('operating')
+    ) {
+      console.log(
+        `${title}: This book is about some systems, but definitely not about operating systmes`
+      );
+    }
+  });
+};
+logBookTHeme(books);
+
+// ASSIGNMENT
+
+// 17.1 Below is the bookCategory variable that stores a string of categories. Each category is separtated with a semicolon, for example, in a string"science; computing", "science" and 'computing' are separted categories.
+
+// Write a function called logBookCategories that takes a string of categories separted with semicolons, and lgos each category to the console(as separte strings)
+
+console.log(`************************** 17.1************************`);
+const logBookCategories = function (string) {
+  const categories = string.split(';');
+
+  for (let category of categories) {
+    console.log(category);
+  }
+};
+console.log(
+  logBookCategories(
+    'science;computing;computer science;algorithms;business;operating systems;network'
+  )
+);
+
+console.log(`************************** 17.2************************`);
+
+// 17.2 Now, the opposite. Each book from the books arrays has the keywords property. Write a function called getKeywordsAsStrings that takes the books arrays as an arougmen, collects keywords from each book, removes duplicates, and joins them to create a single string where keywords are separated by a semicolon.
+
+const getKeywordsAsStrings = function (books) {
+  const unique = [...new Set(books)];
+  return unique.join(' ');
+};
+
+console.log(
+  getKeywordsAsStrings([
+    'computer science;programming;algorithms;data structures;java;math;software;engineering;javascript;computer systems;C;operating systems;Java;mathematics;business;compilers;interpreters;work;focus;personal development',
+  ])
+);
+
+// 17.3 Below is the bookChapters arrays that contains inner arrays. Each inner array consistes of chapter's titiel, and the number of a page, for example, in ['The Basics', 14], "The Basics's"is the chapter's title, and 14 is the number of a page.
+
+// Write a function called logBookChapter that takes an array of arrays (like bookChapters) as an argument, and logs each chapter's name to the console together with the page number . The page number should be separted from the chapter's name with underscore(take a look at the example below)
+
+console.log(`************************** 17.3************************`);
+const bookChapters = [
+  ['The Basics', 14],
+  ['Sorting', 254],
+  ['Searching', 372],
+  ['Graphs', 526],
+  ['Strings', 706],
+];
+const logBookChapter = function (chapters) {
+  for (const [chapter, pages] of chapters) {
+    console.log(chapter.padEnd(20, '_') + '' + pages);
+  }
+};
+
+console.log(logBookChapter(bookChapters));
