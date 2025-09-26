@@ -27,44 +27,58 @@
 // GOAL
 // GOOD LUCK 😀
 
-const gameEvents = new Map([
-  [17, '⚽ GOAL'],
-  [36, '🔁 Substitution'],
-  [47, '⚽ GOAL'],
-  [61, '🔁 Substitution'],
-  [64, '🔶 Yellow card'],
-  [69, '🔴 Red card'],
-  [70, '🔁 Substitution'],
-  [72, '🔁 Substitution'],
-  [76, '⚽ GOAL'],
-  [80, '⚽ GOAL'],
-  [92, '🔶 Yellow card'],
-]);
+// const gameEvents = new Map([
+//   [17, '⚽ GOAL'],
+//   [36, '🔁 Substitution'],
+//   [47, '⚽ GOAL'],
+//   [61, '🔁 Substitution'],
+//   [64, '🔶 Yellow card'],
+//   [69, '🔴 Red card'],
+//   [70, '🔁 Substitution'],
+//   [72, '🔁 Substitution'],
+//   [76, '⚽ GOAL'],
+//   [80, '⚽ GOAL'],
+//   [92, '🔶 Yellow card'],
+// ]);
 
-// 1
-console.log(`******************** 1 *********************`);
-const events = [`Unique game eventis`, ...new Set(gameEvents)];
-console.log(events);
+// // 1
+// console.log(`******************** 1 *********************`);
+// const events = [`Unique game eventis`, ...new Set(gameEvents)];
+// console.log(events);
 
 // 2
-console.log(`******************** 2 *********************`);
+// console.log(`******************** 2 *********************`);
 
-gameEvents.delete(64);
-console.log(gameEvents);
+// gameEvents.delete(64);
+// console.log(gameEvents);
 
-// 3
-console.log(`******************** 3 *********************`);
+// // 3
+// console.log(`******************** 3 *********************`);
 
-const numerOfEvnts = gameEvents.size;
-const averageMinutes = 90 / numerOfEvnts;
-console.log(averageMinutes);
+// const numerOfEvnts = gameEvents.size;
+// const averageMinutes = 90 / numerOfEvnts;
+// console.log(averageMinutes);
 
-console.log(`An event happend, on average, every ${averageMinutes} minutes`);
+// console.log(`An event happend, on average, every ${averageMinutes} minutes`);
 
-// 4
-console.log(`******************** 4 *********************`);
+// // 4
+// console.log(`******************** 4 *********************`);
 
-for (const [min, event] of gameEvents) {
-  const half = min <= 45 ? 'FIRST' : 'SECOND';
-  console.log(`${half} ${min} : ${event}`);
-}
+// for (const [min, event] of gameEvents) {
+//   const half = min <= 45 ? 'FIRST' : 'SECOND';
+//   console.log(`${half} ${min} : ${event}`);
+// }
+
+// ============================================
+// 2
+//  Problem: Map Iteration
+//  Date: 2025-08-22
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// TODO
+// Write a program that receives a list of variable names written in underscore_case
+// and convert them to camelCase.
+// The input will come from a textarea inserted into the DOM (see code below to
+// insert the elements), and conversion will happen when the button is pressed.
