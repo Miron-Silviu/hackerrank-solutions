@@ -132,4 +132,4 @@ function logMessage(message, logger = console.log) {
 }
 
 logMessage('Hello!');
-logMessage('Warning!', alert);
+// logMessage('Warning!', alert);
