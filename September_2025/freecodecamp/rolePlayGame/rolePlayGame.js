@@ -246,3 +246,23 @@ function restart() {
 function winGame() {
   update(locations[6]);
 }
+
+function buyProducts() {
+  if (currentProductsIndex < products.length - 1) {
+    if (credit >= 30) {
+      credit -= 30;
+      currentProducsIndex++;
+      goldText.innerText = credit;
+      let newProducs = products[currentProductsIndex].name;
+      text.innerText = 'You now have a ' + newProducs + '.';
+      inventory.push(newProducts);
+      text.innerText += ' In your inventory you have: ' + inventory;
+    } else {
+      text.innerText = 'You do not have enough credit to buy a Products.';
+    }
+  } else {
+    text.innerText = 'You already have the  product !';
+    button2.innerText = 'Sell product';
+    button2.onclick = sellProduct();
+  }
+}
