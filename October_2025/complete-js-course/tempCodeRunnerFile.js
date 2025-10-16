@@ -1,3 +1,1 @@
-function cooking(time) {
-  return time * time;
-}
+car.info.call(car);
