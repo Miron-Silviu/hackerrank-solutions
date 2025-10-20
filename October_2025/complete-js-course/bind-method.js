@@ -187,3 +187,22 @@ const showName = function () {
 
 const dogName = showName.bind(dog);
 dogName();
+
+// ============================================
+// 9
+//  Problem:Basic Object binding
+//  Date: 2025-10-17
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// TODO Use bind so that calling sayName prints "Buddy"
+
+const lion = { name: 'Simba' };
+
+function lionName() {
+  console.log(this.name);
+}
+
+const kingOfTheJungle = lionName.bind(lion);
+kingOfTheJungle();
