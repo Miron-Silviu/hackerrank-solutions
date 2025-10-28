@@ -1,1 +1,5 @@
-double(5);
+(function () {
+//   const message = 'secret';
+// })();
+
+// console.log(message);
