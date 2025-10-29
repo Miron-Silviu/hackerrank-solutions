@@ -155,11 +155,11 @@ returnResult('Val');
 // The returned function multiplies its arguments by x
 // Example const double = multipylBy(2); double(4) -> 8
 
-// const multiplyBy = function (x) {
-//   return function () {
-//     console.log(x * x);
-//   };
-// };
+const multiplyBy = function (x) {
+  return function () {
+    console.log(x * x);
+  };
+};
 
-// const double = multiplyBy(2);
-// double(4);
+const double = multiplyBy(2);
+double(4);
