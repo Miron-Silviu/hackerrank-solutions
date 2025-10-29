@@ -142,3 +142,24 @@ const returnResult = remberValue();
 returnResult('Val');
 returnResult('Val');
 returnResult('Val');
+
+// ============================================
+// 7
+//  Problem: multiply argument
+//  Date: 2025-10-08
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// TODO  Write a function multiplyBy(x) that returns a function
+// The returned function multiplies its arguments by x
+// Example const double = multipylBy(2); double(4) -> 8
+
+const multiplyBy = function (x) {
+  return function () {
+    console.log(x * x);
+  };
+};
+
+const double = multiplyBy(2);
+double(4);
