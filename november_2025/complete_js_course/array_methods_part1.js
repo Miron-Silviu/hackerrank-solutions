@@ -61,7 +61,7 @@ animals.splice(2, 1);
 console.log(animals);
 
 // ============================================
-// 4
+// 5
 //  Problem:Splice ()
 //  Date: 2025-11-14
 //  Language: JavaScript
@@ -75,3 +75,19 @@ console.log(`******************************* 5 ************************`);
 let numbers = [1, 2, 3, 7, 8];
 numbers.splice(3, 0, 4, 5, 6);
 console.log(numbers);
+
+// ============================================
+// 6
+//  Problem:Splice ()
+//  Date: 2025-11-14
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// TODO  Add "B" in the correct place using splice
+
+console.log(`******************************* 6 ************************`);
+
+let letters = ['A', 'B', 'D'];
+letters.splice(1, 0, 'B');
+console.log(letters);
