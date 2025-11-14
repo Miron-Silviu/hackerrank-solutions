@@ -39,6 +39,23 @@ console.log(nums.slice(3, nums.length));
 // ============================================
 
 // TODO Use slice to create a new array
+console.log(`******************************* 3 ************************`);
 
 const colors = ['red', 'green', 'blue', 'yellow'];
 console.log(colors.slice(1, colors.length));
+
+// ============================================
+// 4
+//  Problem:Splice ()
+//  Date: 2025-11-14
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// TODO Use splice  method to remove "rabbit"
+
+console.log(`******************************* 4 ************************`);
+
+let animals = ['cat', 'dog', 'rabbit', 'lion'];
+animals.splice(2, 1);
+console.log(animals);
