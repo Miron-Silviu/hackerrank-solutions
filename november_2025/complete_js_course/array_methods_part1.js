@@ -59,3 +59,19 @@ console.log(`******************************* 4 ************************`);
 let animals = ['cat', 'dog', 'rabbit', 'lion'];
 animals.splice(2, 1);
 console.log(animals);
+
+// ============================================
+// 4
+//  Problem:Splice ()
+//  Date: 2025-11-14
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// TODO insert numbers 4,5,6 after 3 useing splice
+
+console.log(`******************************* 5 ************************`);
+
+let numbers = [1, 2, 3, 7, 8];
+numbers.splice(3, 0, 4, 5, 6);
+console.log(numbers);
