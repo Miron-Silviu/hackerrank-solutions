@@ -20,3 +20,9 @@ console.log(fruits.slice(1, 3));
 //  Language: JavaScript
 //  Difficulty: Easy
 // ============================================
+
+// TODO Use slice to copy the last 2 elements
+
+const nums = [10, 20, 30, 40, 50];
+
+console.log(nums.slice(3, nums.length));
