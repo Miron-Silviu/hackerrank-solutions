@@ -188,3 +188,33 @@ console.log(`******************************* 12 ************************`);
 const num = [1, 2, 3, 4];
 
 console.log(num.join('-'));
+
+// ============================================
+// 13
+//  Problem:at ()
+//  Date: 2025-11-14
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// TODO Give the third elemet using at
+
+console.log(`******************************* 13 ************************`);
+
+const newArr = ['first', 'second', 'third', 'forth'];
+// const thirdNum = 2;
+console.log(newArr.at(2));
+
+// ============================================
+// 14
+//  Problem:at ()
+//  Date: 2025-11-14
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// TODO Get the last element using at(-1)
+
+console.log(`******************************* 14 ************************`);
+const arrays = [5, 10, 15, 20];
+console.log(arrays.at(-1));
