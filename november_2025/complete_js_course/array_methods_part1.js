@@ -88,6 +88,36 @@ console.log(numbers);
 
 console.log(`******************************* 6 ************************`);
 
-let letters = ['A', 'B', 'D'];
+let letters = ['A', 'C', 'D'];
 letters.splice(1, 0, 'B');
 console.log(letters);
+
+// ============================================
+// 7
+//  Problem:Reverse ()
+//  Date: 2025-11-14
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// TODO  Reverse the array
+console.log(`******************************* 7 ************************`);
+
+const arr = [1, 2, 3, 4, 5];
+arr.reverse();
+console.log(arr);
+
+// ============================================
+// 8
+//  Problem:Reverse ()
+//  Date: 2025-11-14
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// TODO Reverse it to form "olleh"
+
+console.log(`******************************* 7 ************************`);
+
+const word = ['h', 'e', 'l', 'l', 'o'];
+console.log(word.reverse());
