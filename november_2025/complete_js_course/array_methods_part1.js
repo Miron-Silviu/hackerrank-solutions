@@ -149,10 +149,42 @@ console.log(a.concat(b));
 
 // TODO Combine  all three arrays using concat
 
-console.log(`******************************* 8 ************************`);
+console.log(`******************************* 9 ************************`);
 
 const arr1 = ['x', 'y'];
 const arr2 = ['z'];
 const arr3 = ['a', 'b'];
 
 console.log(arr3.concat(arr1, arr2));
+
+// ============================================
+// 11
+//  Problem:join ()
+//  Date: 2025-11-14
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// TODO Turn into "Hello World"
+
+console.log(`******************************* 11 ************************`);
+
+const words = ['Hello', 'world'];
+
+console.log(words.join());
+
+// ============================================
+// 12
+//  Problem:join ()
+//  Date: 2025-11-14
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// TODO Convert into "1-2-3-4" using join
+
+console.log(`******************************* 12 ************************`);
+
+const num = [1, 2, 3, 4];
+
+console.log(num.join('-'));
