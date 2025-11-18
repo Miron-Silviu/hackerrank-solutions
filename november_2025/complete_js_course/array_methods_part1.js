@@ -117,7 +117,42 @@ console.log(arr);
 
 // TODO Reverse it to form "olleh"
 
-console.log(`******************************* 7 ************************`);
+console.log(`******************************* 8 ************************`);
 
 const word = ['h', 'e', 'l', 'l', 'o'];
 console.log(word.reverse());
+
+// ============================================
+// 9
+//  Problem:concat ()
+//  Date: 2025-11-14
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// TODO Combine them into one array using concat
+
+console.log(`******************************* 8 ************************`);
+
+const a = [1, 2];
+const b = [3, 4];
+
+console.log(a.concat(b));
+
+// ============================================
+// 10
+//  Problem:concat ()
+//  Date: 2025-11-14
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// TODO Combine  all three arrays using concat
+
+console.log(`******************************* 8 ************************`);
+
+const arr1 = ['x', 'y'];
+const arr2 = ['z'];
+const arr3 = ['a', 'b'];
+
+console.log(arr3.concat(arr1, arr2));
