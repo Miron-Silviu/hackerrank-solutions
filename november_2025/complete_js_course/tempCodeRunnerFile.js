@@ -1,2 +1,1 @@
-
-    >= 60 ? 'passed' : 'Failed';
+console.log(evenNumbers);
