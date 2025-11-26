@@ -156,7 +156,7 @@ useAges.forEach(function (key, value) {
 // ============================================
 
 // TODO Use forEach to increase each values in the Map by 1 and store result in a new Map.
-console.log(`******************************* 7 ************************`);
+console.log(`******************************* 8 ************************`);
 
 const inventory = new Map([
   ['apples', 10],
@@ -164,11 +164,31 @@ const inventory = new Map([
   ['oranges', 8],
 ]);
 
-let newValues = new Map([]);
+let newValues = new Map();
 
 inventory.forEach(function (key, values) {
-  key += 1;
-  newValues.push(key, values);
+  newValues.set(key + 1, values);
 });
-
 console.log(newValues);
+// ============================================
+// 9
+//  Problem:Count items with value < 10
+//  Date: 2025-11-26
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// TODO Count how many map entries have a value less than 10
+console.log(`******************************* 9 ************************`);
+
+const stock = new Map([
+  ['pens', 15],
+  ['notebooks', 8],
+  ['earsers', 4],
+]);
+
+stock.forEach(function (val) {
+  if (val < 10) {
+    console.log(val);
+  }
+});
