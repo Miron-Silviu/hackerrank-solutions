@@ -52,3 +52,20 @@ const people = [
 
 const adults = people.filter((person) => person.age >= 18);
 console.log(adults);
+
+// ============================================
+// 4
+//  Problem:Filter uniqu Numbers
+//  Date: 2025-11-14
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// TODO Use Filter to create a new array that containe only the unique numbers
+
+const nums = [1, 2, 2, 3, 4, 4, 5];
+
+const uniqueNumbers = nums.filter(
+  (num, index, arr) => arr.indexOf(num) === index
+);
+console.log(uniqueNumbers);
