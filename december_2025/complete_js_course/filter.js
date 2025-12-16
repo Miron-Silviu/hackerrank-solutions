@@ -31,3 +31,24 @@ const words = ['apple', 'banana', 'kiwi', 'grape', 'watermelon'];
 
 const longerThanFive = words.filter((x) => x.length > 5);
 console.log(longerThanFive);
+
+// ============================================
+// 3
+//  Problem:Filter Adults
+//  Date: 2025-11-14
+//  Language: JavaScript
+//  Difficulty: Easy
+// ============================================
+
+// TODO Use filter  to create a new array that only contains people who are 18 or older
+
+console.log(`------------------ Third Chllenge -------------------`);
+const people = [
+  { name: 'Alice', age: 17 },
+  { name: 'Bob', age: 25 },
+  { name: 'Charlie', age: 15 },
+  { name: 'David', age: 30 },
+];
+
+const adults = people.filter((person) => person.age >= 18);
+console.log(adults);
