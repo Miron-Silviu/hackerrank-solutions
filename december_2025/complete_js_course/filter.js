@@ -4,7 +4,7 @@ console.log(`------------------ First Challenge -------------------`);
 // ============================================
 // 1
 //  Problem:Filter
-//  Date: 2025-11-14
+//  Date: 2025-12-16
 //  Language: JavaScript
 //  Difficulty: Easy
 // ============================================
@@ -20,7 +20,7 @@ console.log(`------------------ Second Chllenge -------------------`);
 // ============================================
 // 2
 //  Problem:Filter long words
-//  Date: 2025-11-14
+//  Date: 2025-12-16
 //  Language: JavaScript
 //  Difficulty: Easy
 // ============================================
@@ -35,7 +35,7 @@ console.log(longerThanFive);
 // ============================================
 // 3
 //  Problem:Filter Adults
-//  Date: 2025-11-14
+//  Date: 2025-12-16
 //  Language: JavaScript
 //  Difficulty: Easy
 // ============================================
@@ -56,7 +56,7 @@ console.log(adults);
 // ============================================
 // 4
 //  Problem:Filter uniqu Numbers
-//  Date: 2025-11-14
+//  Date: 2025-11-16
 //  Language: JavaScript
 //  Difficulty: Easy
 // ============================================
@@ -69,3 +69,6 @@ const uniqueNumbers = nums.filter(
   (num, index, arr) => arr.indexOf(num) === index
 );
 console.log(uniqueNumbers);
+
+// TODO
+// LESSON
